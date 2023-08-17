@@ -16,13 +16,34 @@
     </header>
 
     <!-- main body -->
-    <section>
-        <!-- section text -->
+    <section id="quizContainer">
+        
+        <div id="startScreen">
+            <h2>Welcome to the Premier League Quiz!</h2>
+            <input type="text" id="username" placeholder="Your Username">
+            <button id="startQuiz">Start Quiz!</button>
+        </div>
+
+        <div id="questionScreen">
+            <!-- Questions and options will be added dynamically using JavaScript -->
+        </div>
+
+        <div id="resultScreen">
+            <h2>Full Time Score</h2>
+            <p id="usernameDisplay"></p>
+            <p id="scoreDisplay"></p>
+            <button id="resetButton">Rematch?</button>
+        </div>
+
     </section>
 
     <!-- footer -->
     <footer>
-        <!-- Footer text -->
+        <p>Contact us:</p>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">Github</a>
     </footer>
 
     <script src="assets/js/script.js"></script>
