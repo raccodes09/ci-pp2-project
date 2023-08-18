@@ -3,40 +3,89 @@
 
 /* global styling */
 body {
-
+    font-family: "Lisu Bosa", sans-serif;
+    background-color: #28a745;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* To make the footer sticky */
 }
 
 header {
-
+    background-color: #800080;
+    text-align: center;
+    padding: 1rem;
+    border: 5px solid white;
+    font-size: 200%;
+    font-family: "Barriecito", sans-serif;
+    height: 150px;
 }
 
 footer {
-
+    background-color: #800080;
+    text-align: center;
+    padding: 1rem;
+    border: 5px solid white;
+    font-size: 150%;
+    font-family: "Barriecito", sans-serif;
+    height: 150px;
+    margin-top: auto; /* Sticky footer */
 }
 
 section {
-
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* buttons */
+/* buttons and username input */
 button {
+    border: 2px solid lightgrey;
+    background-color: #800080;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Barriecito", sans-serif;
+}
 
+button:hover {
+    background-color: #6b006b; 
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    width: 80%;
+    margin-top: 10px;
 }
 
 /* targeted styling */
 footer a {
-
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 footer p {
-
+    margin-bottom: 10px;
 }
 
 /* question and result style */
-input {
-
+input[type="radio"] {
+    margin-right: 5px;
 }
 
 #questionScreen, #resultScreen {
-    
+    background-color: #800080;
+    border: 5px solid white;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-family: "Lisu Bosa", sans-serif;
+    font-size: 20px;
 }
