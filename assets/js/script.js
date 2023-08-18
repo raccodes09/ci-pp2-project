@@ -1,4 +1,8 @@
 // get required elements
+const startbutton = document.getElementById('startQuiz');
+const usernameInput = document.getElementById('username');
+const quizContainer = document.getElementById('quizContainer');
+const startScreen = document.getElementById('startScreen');
 
 
 
