@@ -15,7 +15,33 @@ let currentQuestion = 0;
 
 
 // question data
-
+const questions = [
+    {
+    question: "Who won the Premier League in the year 2000?",
+    options: ["Manchester United", "Arsenal", "Chelsea"],
+    answer: "Manchester United"
+    },
+    {
+    question: "Which team was relegated from the Premier League in the year 2010?",
+    options: ["Blackpool", "West Ham United", "Birmingham City"],
+    answer: "Blackpool"
+    },
+    {
+    question: "Who was the top goal scorer in the Premier League during the 2015-2016 season?",
+    options: ["Sergio Agüero", "Harry Kane", "Jamie Vardy"],
+    answer: "Harry Kane"
+    },
+    {
+    question: "Which team won the Premier League title in the year 2019?",
+    options: ["Liverpool", "Manchester City", "Chelsea"],
+    answer: "Manchester City"
+    },
+    {
+    question: "Who scored the fastest Premier League hat-trick in history?",
+    options: ["Sadio Mané", "Robbie Fowler", "Andy Carroll"],
+    answer: "Sadio Mané"
+    }    
+];
 
 
 
