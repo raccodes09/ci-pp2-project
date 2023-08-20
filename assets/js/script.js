@@ -46,12 +46,51 @@ const questions = [
 
 
 // event listener - start button
+startButton.addEventListener('click', startQuiz);
 
+function startQuiz() {
+    username = usernameInput.value;
+    if (username != '') {
+        startScreen.style.display = 'none'
+    }
+}
 
 
 
 // function - display questions and options
+function displayQuestion(questionIndex) {
+    if (questionIndex < questions.length) {
+        const questionData = questions[questionIndex];
+        const optionsHTML = questionData.options.map((option, index) => `
+            <label>
+                <input type="radio" name="q${questionIndex}" value="${option}">
+                ${option}
+            </label>
+            <br>
+        `).join('');
 
+        questionScreen.innerHTML = `
+            <h2>Question ${questionIndex + 1}:</h2>
+            <p>${questionData.question}</p>
+            ${optionsHTML}
+            <button id="nextQuestion">Next</button>
+        `;
+
+        const nextButton = document.getElementById('nextQuestion');
+        nextButton.addEventListener('click', () => {
+            const selectedOption = document.querySelector(`input[name=q${questionIndex}]:checked`);
+            if (selectedOption) {
+                if (selectedOption.value === questionData.answer) {
+                    score++;
+                }
+                currentQuestion++;
+                displayQuestion(currentQuestion);
+            }
+        });
+    } else {
+        showResult();
+    }
+}
 
 
 
@@ -61,7 +100,12 @@ const questions = [
 
 
 // event listener - start quiz
-
+document.addEventListener('DOMContentloaded', () => {
+    startButton.disabled = true;
+    usernameInput.addEventListener('input', () => {
+        startButton.disabled = usernameInput.value === '';
+    });
+});
 
 
 
