@@ -52,6 +52,8 @@ function startQuiz() {
     username = usernameInput.value;
     if (username != '') {
         startScreen.style.display = 'none'
+        questionScreen.style.display = 'block';
+        displayQuestion(currentQuestion);
     }
 }
 
@@ -95,9 +97,9 @@ function displayQuestion(questionIndex) {
 
 
 // function - display result screen
-
-
-
+function showResult() {
+    questionScreen.style.display = 'none';
+}
 
 // event listener - start quiz
 document.addEventListener('DOMContentloaded', () => {
