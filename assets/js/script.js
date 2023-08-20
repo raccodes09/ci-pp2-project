@@ -5,6 +5,8 @@ const quizContainer = document.getElementById('quizContainer');
 const startScreen = document.getElementById('startScreen');
 const questionScreen = document.getElementById('questionScreen');
 const resultScreen = document.getElementById('resultScreen');
+const usernameDisplay = document.getElementById('usernameDisplay');
+const scoreDisplay = document.getElementById('scorseDisplay');
 
 
 // declare required variables
@@ -99,6 +101,7 @@ function displayQuestion(questionIndex) {
 // function - display result screen
 function showResult() {
     questionScreen.style.display = 'none';
+    resultScreen.style.display = 'block';
 }
 
 // event listener - start quiz
