@@ -56,6 +56,8 @@ function startQuiz() {
         startScreen.style.display = 'none'
         questionScreen.style.display = 'block';
         displayQuestion(currentQuestion);
+    } else {
+        alert('Please enter username to kick off!');
     }
 }
 
