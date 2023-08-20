@@ -104,6 +104,8 @@ function displayQuestion(questionIndex) {
 function showResult() {
     questionScreen.style.display = 'none';
     resultScreen.style.display = 'block';
+    usernameDisplay.textContent = `Username: ${username}`;
+    scoreDisplay.textContent = `Score: ${score} out of ${questions.length}`;
 }
 
 // event listener - start quiz
