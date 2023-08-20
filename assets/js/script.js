@@ -52,7 +52,7 @@ startButton.addEventListener('click', startQuiz);
 
 function startQuiz() {
     username = usernameInput.value;
-    if (username != '') {
+    if (username !== '') {
         startScreen.style.display = 'none'
         questionScreen.style.display = 'block';
         displayQuestion(currentQuestion);
