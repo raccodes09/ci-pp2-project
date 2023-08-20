@@ -1,4 +1,4 @@
-// get required elements
+// get required elements - values don't change
 const startbutton = document.getElementById('startQuiz');
 const usernameInput = document.getElementById('username');
 const quizContainer = document.getElementById('quizContainer');
@@ -14,7 +14,7 @@ let currentQuestion = 0;
 
 
 
-// question data
+// question data  - values don't change
 const questions = [
     {
     question: "Who won the Premier League in the year 2000?",
