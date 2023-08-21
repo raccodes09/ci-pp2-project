@@ -119,7 +119,15 @@ document.addEventListener('DOMContentloaded', () => {
 
 
 // event listener - reset button
-
+resetButton.addEventListener('click', () => {
+    startScreen.style.display = 'block';
+    questionScreen.style.display = 'none';
+    resultScreen.style.display = 'none';
+    usernameInput = '';
+    score = 0;
+    currentQuestion = 0;
+    startButton.disabled = true;
+});
 
 
 
