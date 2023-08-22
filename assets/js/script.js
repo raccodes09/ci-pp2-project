@@ -6,7 +6,7 @@ const startScreen = document.getElementById('startScreen');
 const questionScreen = document.getElementById('questionScreen');
 const resultScreen = document.getElementById('resultScreen');
 const usernameDisplay = document.getElementById('usernameDisplay');
-const scoreDisplay = document.getElementById('scorseDisplay');
+const scoreDisplay = document.getElementById('scoreDisplay');
 
 
 // declare required variables
