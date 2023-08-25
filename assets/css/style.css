@@ -28,7 +28,7 @@ footer {
     text-align: center;
     padding: 1rem;
     border: 5px solid white;
-    font-size: 150%;
+    font-size: 200%;
     font-family: "Barriecito", sans-serif;
     height: 150px;
     margin-top: auto; /* Sticky footer */
@@ -69,6 +69,7 @@ footer a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    letter-spacing: 25px;
 }
 
 footer p {
