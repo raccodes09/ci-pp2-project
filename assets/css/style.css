@@ -110,16 +110,25 @@ input[type="radio"] {
     header {
         font-size: 130%;
     }
-
     footer {
         font-size: 130%;
     }
-
     button {
         padding: 0.3rem 0.7rem;
     }
-
     input[type="text"] {
         width: 70%;
     }
+}
+
+
+/* Media query for screens up to 800px wide */
+@media screen and (max-width: 800px) {
+
+}
+
+
+/* Media query for screens up to 320px wide */
+@media screen and (max-width: 320px) {
+
 }
