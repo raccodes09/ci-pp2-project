@@ -1,5 +1,5 @@
-// get required elements - values don't change
-const startbutton = document.getElementById('startQuiz');
+// Get required elements - values don't change
+const startButton = document.getElementById('startQuiz');
 const usernameInput = document.getElementById('username');
 const quizContainer = document.getElementById('quizContainer');
 const startScreen = document.getElementById('startScreen');
@@ -8,46 +8,45 @@ const resultScreen = document.getElementById('resultScreen');
 const usernameDisplay = document.getElementById('usernameDisplay');
 const scoreDisplay = document.getElementById('scoreDisplay');
 
+// Hide questionScreen and resultScreen initially
+questionScreen.style.display = 'none';
+resultScreen.style.display = 'none';
 
-// declare required variables
+// Declare variables
 let username = '';
 let score = 0;
 let currentQuestion = 0;
 
-
-
-// question data  - values don't change
+// Question data  - values don't change
 const questions = [
     {
-    question: "Who won the Premier League in the year 2000?",
-    options: ["Manchester United", "Arsenal", "Chelsea"],
-    answer: "Manchester United"
+        question: "Who won the Premier League in the year 2000?",
+        options: ["Manchester United", "Arsenal", "Chelsea"],
+        answer: "Manchester United"
     },
     {
-    question: "Which team was relegated from the Premier League in the year 2010?",
-    options: ["Blackpool", "West Ham United", "Birmingham City"],
-    answer: "Blackpool"
+        question: "Which team was relegated from the Premier League in the year 2010?",
+        options: ["Blackpool", "West Ham United", "Birmingham City"],
+        answer: "Blackpool"
     },
     {
-    question: "Who was the top goal scorer in the Premier League during the 2015-2016 season?",
-    options: ["Sergio Agüero", "Harry Kane", "Jamie Vardy"],
-    answer: "Harry Kane"
+        question: "Who was the top goal scorer in the Premier League during the 2015-2016 season?",
+        options: ["Sergio Agüero", "Harry Kane", "Jamie Vardy"],
+        answer: "Harry Kane"
     },
     {
-    question: "Which team won the Premier League title in the year 2019?",
-    options: ["Liverpool", "Manchester City", "Chelsea"],
-    answer: "Manchester City"
+        question: "Which team won the Premier League title in the year 2019?",
+        options: ["Liverpool", "Manchester City", "Chelsea"],
+        answer: "Manchester City"
     },
     {
-    question: "Who scored the fastest Premier League hat-trick in history?",
-    options: ["Sadio Mané", "Robbie Fowler", "Andy Carroll"],
-    answer: "Sadio Mané"
-    }    
+        question: "Who scored the fastest Premier League hat-trick in history?",
+        options: ["Sadio Mané", "Robbie Fowler", "Andy Carroll"],
+        answer: "Sadio Mané"
+    }
 ];
 
-
-
-// event listener - start button
+// Event listener for quiz start button
 startButton.addEventListener('click', startQuiz);
 
 function startQuiz() {
@@ -57,13 +56,11 @@ function startQuiz() {
         questionScreen.style.display = 'block';
         displayQuestion(currentQuestion);
     } else {
-        alert('Please enter username to kick off!');
+        alert('Please enter a username to start the quiz.');
     }
 }
 
-
-
-// function - display questions and options
+// Function to display a question and its options
 function displayQuestion(questionIndex) {
     if (questionIndex < questions.length) {
         const questionData = questions[questionIndex];
@@ -98,9 +95,7 @@ function displayQuestion(questionIndex) {
     }
 }
 
-
-
-// function - display result screen
+// Function to display the result screen
 function showResult() {
     questionScreen.style.display = 'none';
     resultScreen.style.display = 'block';
@@ -108,26 +103,22 @@ function showResult() {
     scoreDisplay.textContent = `Score: ${score} out of ${questions.length}`;
 }
 
-// event listener - start quiz
-document.addEventListener('DOMContentloaded', () => {
+// Start the quiz
+document.addEventListener('DOMContentLoaded', () => {
     startButton.disabled = true;
     usernameInput.addEventListener('input', () => {
         startButton.disabled = usernameInput.value === '';
     });
 });
 
-
-
-// event listener - reset button
+// Event listener for reset button
 resetButton.addEventListener('click', () => {
     startScreen.style.display = 'block';
     questionScreen.style.display = 'none';
     resultScreen.style.display = 'none';
-    usernameInput = '';
+    usernameInput.value = '';
+    username = '';
     score = 0;
     currentQuestion = 0;
     startButton.disabled = true;
 });
-
-
-

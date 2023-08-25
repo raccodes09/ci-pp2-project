@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #6b006b; 
+    background-color: #6b006b;
 }
 
 input[type="text"] {
@@ -80,7 +80,8 @@ input[type="radio"] {
     margin-right: 5px;
 }
 
-#questionScreen, #resultScreen {
+#questionScreen,
+#resultScreen {
     background-color: #800080;
     border: 5px solid white;
     padding: 20px;
