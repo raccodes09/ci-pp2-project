@@ -91,3 +91,35 @@ input[type="radio"] {
     font-family: "Lisu Bosa", sans-serif;
     font-size: 20px;
 }
+
+
+/* Media Queries */
+
+/* Media query for screens up to 1200px wide */
+@media screen and (max-width: 1200px) {
+    header {
+        font-size: 150%;
+    }
+    footer {
+        font-size: 150%;
+    }
+}
+
+/* Media query for screens up to 950px wide */
+@media screen and (max-width: 950px) {
+    header {
+        font-size: 130%;
+    }
+
+    footer {
+        font-size: 130%;
+    }
+
+    button {
+        padding: 0.3rem 0.7rem;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+}
