@@ -12,21 +12,39 @@ The user is required to enter a username before they can begin quiz, after which
 
 The option of a "rematch" using a reset button, will reset the quiz allowing a new user to play.
 
+### User Experience (UX)
+
+#### ***Design***
+
+- #### Colour Palette
+
+        - The colour palette is made up of four colours: 
+          - Green #28a745
+          - Purple #6b006b
+          - White #FFFFFF
+
+        - The Green #28a745 was chosen as it is associated with football. The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. Both colors together with the white contrasts really well helping user experience. 
+
+- #### Typography
+
+    - The font syles of Lisu Bosa for the main body text and "Barriecito" for the headings works well together and represents the intention of the quiz. The "Barriecito" in particular works well as it gives off a "quizicle" style.
+
+
 ## Wireframe
 
 Using Balsamiiq Wireframe I was able to design my website before building it. It allowed me to draw up an basic layout of each page I wanted to include.
 
 #### Login Page
 
-![Mockup image](/assets/images/wireframe-images/wireframe-username-page.png)
+![Mockup image](/assets/testing/wireframe-images/wireframe-username-page.png)
 
 #### Question Page
 
-![Mockup image](/assets/images/wireframe-images/wireframe-question-page.png)
+![Mockup image](/assets/testing/wireframe-images/wireframe-question-page.png)
 
 #### Result Page
 
-![Mockup image](/assets/images/wireframe-images/wireframe-score-page.png)
+![Mockup image](/assets/testing/wireframe-images/wireframe-score-page.png)
 
 ## Features
 
@@ -46,15 +64,15 @@ Each page is styled in a clean, pleasing to the eye contrast using colours assoc
 
 #### Login Page
 
-![Mockup image](/assets/testing/)
+![Mockup image](/assets/testing/readme-images/login-image.png)
 
 #### Question Page
 
-![Mockup image](/assets/testing/)
+![Mockup image](/assets/testing/readme-images/questions-image.png)
 
 #### Result Page
 
-![Mockup image](/assets/testing/)
+![Mockup image](/assets/testing/readme-images/results-image.png)
 
 ## Technologies Used
 
