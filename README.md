@@ -8,7 +8,7 @@
 
 Premier League Quizzers is a quiz website that challenges users on their knowledge of the English Football Premier League. They are asked questions relating to wiiners, records, relegations etc since the Premier leagues inception.
 
-The user is required to enter a username before they can begin quiz, after which they will be asked five questions. They won't know their "full time score" until the answer the last question. Afeter the last question is answered, the user will have their result displayed showing their username and their "score out of five."
+The user is required to enter a username before they can begin quiz, after which they will be asked five questions. They won't know their "full time score" until the answer the last question. After the last question is answered, the user will have their result displayed showing their username and their "score out of five."
 
 The option of a "rematch" using a reset button, will reset the quiz allowing a new user to play.
 
@@ -111,15 +111,19 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
     - [HTML](/assets/testing/validation-pdf/html-validation.pdf)
 
+
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS code.
 
     - [CSS](/assets/testing/validation-pdf/css-validation.pdf)
 
+
 [WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found other than empty form label - this is intended as I am using placeholder text for instruction and visually more attractive without a label.
+
 
 [JS Hint](https://jshint.com/) was used to validate JavaScript code.
 
     - [JavaScript](assets/testing/validation-pdf/js-hint-validation-result.pdf)
+
 
 ## User Testing
 
@@ -193,7 +197,7 @@ The live link can be found here - [Live webpage](https://raccodes09.github.io/ci
 
 ### Content
 
-Code from social media links was taken from CI Love Running project.
+- Code from social media links was taken from CI Love Running project.
 
 - [CSS Tricks](https://css-tricks.com/) Information and code from articles in CSS Tricks regarding media queries and a fixed header.
 
