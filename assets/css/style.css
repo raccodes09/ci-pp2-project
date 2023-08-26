@@ -69,7 +69,7 @@ footer a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    letter-spacing: 25px;
+    /* letter-spacing: 20px; */
 }
 
 footer p {
@@ -146,7 +146,7 @@ input[type="radio"] {
         max-height: 50vh;
     }
     footer {
-        font-size: 100%;
+        font-size: 130%;
         height: 100px;
         letter-spacing: normal;
     }
