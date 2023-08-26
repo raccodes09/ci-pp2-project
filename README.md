@@ -30,12 +30,13 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
 ## Features
 
-- Benefits of Aloe Vera use.
-- Contact deatils.
-- Sign up form to subscribe to newsletter.
-- Images of ALoe Vera.
-- Informative video highlighting Aloe Vera as a drink.
-- Social Media links to allow user to view social content of website.
+- Username entry.
+- "One-page" website.
+- Question section appear dynamically after username validation passes.
+- Questions appear dynamically once previous answer submitted.
+- Once all questions answered. Results page appears dynamically.
+- Results page displays score against the user's selected username.
+- REset button to rest quiz and allow new user to play.
 
 The navigation bar includes four clickable links, including the logo acting as a "return to homepage" link. This allows the user to easily access the three pages on the site.
 
