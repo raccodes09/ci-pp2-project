@@ -6,6 +6,7 @@ const questionScreen = document.getElementById('questionScreen');
 const resultScreen = document.getElementById('resultScreen');
 const usernameDisplay = document.getElementById('usernameDisplay');
 const scoreDisplay = document.getElementById('scoreDisplay');
+const resetButton = document.getElementById('resetButton');
 
 // Hide questionScreen and resultScreen initially
 questionScreen.style.display = 'none';

@@ -2,7 +2,7 @@
 
 [Live webpage](https://raccodes09.github.io/ci-pp2-project/)
 
-![Mockup image](/assets/testing/)
+![Mockup image](/assets/testing/readme-images/am-i-responsive.png)
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ The option of a "rematch" using a reset button, will reset the quiz allowing a n
 
 - #### Colour Palette
 
-- The colour palette is made up of four colours: 
+- The colour palette is made up of four colours:
   - Green #28a745
   - Purple #6b006b
   - White #FFFFFF
@@ -139,6 +139,35 @@ The results shown below:
 
 ## Deployment
 
+### Github pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate 
+1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. The page will automatically refresh.
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### ***Forking the GitHub Repository***
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the 
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+### ***Making a Local Clone***
+
+1. Log in to GitHub and locate the 
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+1. Press Enter. Your local clone will be created.
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
@@ -153,17 +182,15 @@ The live link can be found here - [Live webpage](https://raccodes09.github.io/ci
 
 Code from social media links was taken from CI Love Running project.
 
-Code from hero image zoom was taken from CI Love Running project.
+- [CSS Tricks](https://css-tricks.com/) Information and code from articles in CSS Tricks regarding media queries and a fixed header.
 
-[CSS Tricks](https://css-tricks.com/) Information and code from articles in CSS Tricks regarding media queries and a fixed header.
+- [W3Schools](https://www.w3schools.com/) Information on having the questions dynamically appear.
 
-[W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/) Assisted with concatenating the questions/options.
 
-[Stack Overflow](https://stackoverflow.com/) Assisted with flexbox styling.
+- Deployment section of README.md provided by a combination of CI's template and generic template on slack.
 
-Deployment section of README.md provided by CI's template.
-
-Information for the questions based on the PRemier League history came from various sources, mainly the official Premier League website.
+- Information for the questions based on the PRemier League history came from various sources, mainly the official Premier League website.
 
 ### Media
 
