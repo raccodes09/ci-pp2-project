@@ -143,7 +143,7 @@ The results shown below:
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate 
+1. Log in to GitHub and locate [Premier League Quizzers](https://github.com/raccodes09/ci-pp2-project).
 1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 1. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -154,19 +154,19 @@ The project was deployed to GitHub Pages using the following steps:
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-1. Log in to GitHub and locate the 
-1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-1. You should now have a copy of the original repository in your GitHub account.
+1. Log in to GitHub and locate [Premier League Quizzers](https://github.com/raccodes09/ci-pp2-project).
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
 ### ***Making a Local Clone***
 
-1. Log in to GitHub and locate the 
-1. Under the repository name, click "Clone or download".
-1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-1. Open Git Bash
-1. Change the current working directory to the location where you want the cloned directory to be made.
-1. Type git clone, and then paste the URL you copied in Step 3.
-1. Press Enter. Your local clone will be created.
+1. Log in to GitHub and locate [Premier League Quizzers](https://github.com/raccodes09/ci-pp2-project).
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
