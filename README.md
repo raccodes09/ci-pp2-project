@@ -1,39 +1,157 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Premier LEague Quizzers
 
-Welcome,
+[Live webpage]()
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup image](/assets/testing/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Project Overview
 
-## Codeanywhere Reminders
+Premier League Quizzers is a quiz website that challenges users on their knowledge of the English Football Premier League. They are asked questions relating to wiiners, records, relegations etc since the Premier leagues inception.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The user is required to enter a username before they can begin quiz, after which they will be asked five questions. They won't know their "full time score" until the answer the last question. Afeter the last question is answered, the user will have their result displayed showing their username and their "score out of five."
 
-`python3 -m http.server`
+The option of a "rematch" using a reset button, will reset the quiz allowing a new user to play.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Wireframe
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Using Balsamiiq Wireframe I was able to design my website before building it. It allowed me to draw up an basic layout of each page I wanted to include.
 
-`http_server`
+#### Main Page
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Mockup image](/assets/images/readme-images/)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Contact Page
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Mockup image](/assets/images/readme-images/)
 
-To log into the Heroku toolbelt CLI:
+#### Sign Up Page
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Mockup image](/assets/images/readme-images/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+- Benefits of Aloe Vera use.
+- Contact deatils.
+- Sign up form to subscribe to newsletter.
+- Images of ALoe Vera.
+- Informative video highlighting Aloe Vera as a drink.
+- Social Media links to allow user to view social content of website.
 
-Happy coding!
+The navigation bar includes four clickable links, including the logo acting as a "return to homepage" link. This allows the user to easily access the three pages on the site.
+
+To help with user experience, the header which holds the links, is fixed meaning that it will remain at the top as the user scrolls throughout the page.
+
+Each page is styled in a clean, pleasing to the eye contrast using colours associated with natural living, calmness and nature - the idea behind behind Aloe Vera itself.
+
+#### Main Page
+
+![Mockup image](/assets/testing/)
+
+#### Contact Page
+
+![Mockup image](/assets/testing/)
+
+#### Sign Up Page
+
+![Mockup image](/assets/testing/)
+
+## Technologies Used
+
+### Languages
+
+- HTML
+
+- CSS3
+
+- JavaScript
+
+### Frameworks, Libraries & Other Resources
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google Fonts was used to import fonts into the style.css file.
+
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome provideds small graphics to complement the logo and various headers.
+
+1. [Git:](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+1. [GitHub:](https://github.com/)
+    - GitHub used to store the code whoch was pushed from Git.
+
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to design the wireframes
+
+1. [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools used to check the site in terms of responsivity, amending code and trying various styles. The Lighthouse feature was used to test performance.
+
+1. [Am I Repsonsive:](https://ui.dev/amiresponsive)
+    - Am I repsonive used to check responsivity across all devices.
+
+
+## Validator Testing
+
+[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to HTML code.
+    - [Homepage](/assets/testing/testing-html-homepage.pdf)
+    - [Contact](/assets/testing/testing-html-contact.pdf)
+    - [Sign Up](/assets/testing/testing-html-signup.pdf)
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS code.
+
+    - [CSS](/assets/testing/testing-css.pdf)
+
+[WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found.
+
+## Performance
+
+Using Google Lighthouse within Google Chrome Developer Tools I was able to test the performance, accessibility, best practice and SEO. Overall performance could be improved which I will look at in future updates.
+
+The results shown below:
+
+![Mockup image](/assets/testing/)
+
+## Bugs
+
+When screen size reduces to approximately tablet size and below, the Footer blends with body. Working with "sticky footer" coding I have attempted to fix the footer below each section, howvever my attempts have not worked. To resolve this, I will have to style the body in a differnet way.
+
+I overcame this by targeting page-content with overflow-y auto. I know there is perhaps a more efficent/best practice way to make the code more appealing - this will be revisisted in a later update.
+
+Issue regarding the links when screen size reduces. It forces content outside the viewport. I tried to implement the "hamburger" method but was unsuccessful. This will be revisisted in a later update - code will need be rewritten to allow a more positive visual experience as well as general user experience.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - [Live webpage]()
+
+## Credits
+
+### Content
+
+Code from social media links was taken from CI Love Running project.
+
+Code from hero image zoom was taken from CI Love Running project.
+
+[CSS Tricks](https://css-tricks.com/) Information and code from articles in CSS Tricks regarding media queries and a fixed header.
+
+[W3Schools](https://www.w3schools.com/)
+
+[Stack Overflow](https://stackoverflow.com/) Assisted with flexbox styling.
+
+Deployment section of README.md provided by CI's template.
+
+Information for the questions based on the PRemier League history came from various sources, mainly the official Premier League website.
+
+### Media
+
+Tab icon provided by [favicon.cc](https://www.favicon.cc/?action=search&keywords=football/)
+
+## Acknowledgements
+
+The Slack commnity for asking questions that I didn't know I needed to ask and providing valuable help throughout.
+
+Tutors and Student support from Code Institute - very helpful and understanding throughout the course.
