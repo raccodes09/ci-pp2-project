@@ -105,15 +105,18 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 ## Validator Testing
 
 [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to HTML code.
-    - [Homepage](/assets/testing/testing-html-homepage.pdf)
-    - [Contact](/assets/testing/testing-html-contact.pdf)
-    - [Sign Up](/assets/testing/testing-html-signup.pdf)
+
+    - [HTML](/assets/testing/validation-pdf/html-validation.pdf)
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS code.
 
-    - [CSS](/assets/testing/testing-css.pdf)
+    - [CSS](/assets/testing/validation-pdf/css-validation.pdf)
 
 [WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found other than empty form label - this is intended as I am using placeholder text for instruction and visually more attractive without a label.
+
+[JS Hint](https://jshint.com/) was used to validate JavaScript code.
+
+    - [JavaScript](assets/testing/validation-pdf/js-hint-validation-result.pdf)
 
 ## User Testing
 
