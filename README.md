@@ -14,20 +14,23 @@ The option of a "rematch" using a reset button, will reset the quiz allowing a n
 
 ### User Experience
 
-#### ***Design***
+#### Design
 
-- #### Colour Palette
+- #### ***Colour Palette***
 
 - The colour palette is made up of four colours:
   - Green #28a745
   - Purple #6b006b
   - White #FFFFFF
 
-  - The Green #28a745 was chosen as it is associated with football. The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. Both colors together with the white contrasts really well helping user experience.
+  - The Green #28a745 was chosen as it is associated with football. 
+  - The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. 
+  - Both colors together with the white contrasts really well helping user experience.
 
-- #### Typography
+- #### ***Typography***
 
-  - The font syles of Lisu Bosa for the main body text and "Barriecito" for the headings works well together and represents the intention of the quiz. The "Barriecito" in particular works well as it gives off a "quizicle" style.
+  - The font syles of Lisu Bosa for the main body text and "Barriecito" for the headings works well together and represents the intention of the quiz. 
+  - The "Barriecito" in particular works well as it gives off a "quizicle" style.
 
 
 ## Wireframe
@@ -104,7 +107,7 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
 ## Validator Testing
 
-[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to HTML code.
+[W3C Markup Validator](https://validator.w3.org/) was used to HTML code.
 
     - [HTML](/assets/testing/validation-pdf/html-validation.pdf)
 
@@ -125,8 +128,8 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
     - the website was easy to navigate
     - the colors worked well together
     - the layout and structure of the questions made the intention clear
-    - Would benefit from a scorecard saving previous user scores
-    - 
+    - would benefit from a scorecard saving previous user scores
+    - more questions
 
 
 ## Performance
@@ -140,12 +143,15 @@ The results shown below:
 ## Bugs
 
 - The alert for when no username has been entered and the "Kick-Off" button is pressed does not appear. I have tested this on several browsers and re-written the code but at this time, no fix is in place. I have tested this while ensuring pop-up blockers are disabled but this has not resolved the issue.
+  
 - The question container resizes depending on length of question being asked. Code would need to be we-written to maintain constant size and for the question text to wrap within the container.
 
 ## Future Implementations
 
 - Scoreboard where previous users and their scores are saved which would add further competitivness to the quiz.
+  
 - Investigate the usage of an API to generate a larger bucket of questions and randomise the questions on each turn
+  
 - Add animation for when user logs in and also when their final result is revealed, for example, a football being kicked.
 
 ## Deployment
@@ -161,7 +167,7 @@ The project was deployed to GitHub Pages using the following steps:
 1. The page will automatically refresh.
 1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-### ***Forking the GitHub Repository***
+### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
@@ -169,7 +175,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### ***Making a Local Clone***
+### Making a Local Clone
 
 1. Log in to GitHub and locate [Premier League Quizzers](https://github.com/raccodes09/ci-pp2-project).
 2. Under the repository name, click "Clone or download".
@@ -178,12 +184,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Main Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Live webpage](https://raccodes09.github.io/ci-pp2-project/)
 
