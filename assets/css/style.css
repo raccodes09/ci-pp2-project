@@ -40,6 +40,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 150%;
 }
 
 /* buttons and username input */
@@ -129,6 +130,9 @@ input[type="radio"] {
     }
     footer {
         font-size: 120%;
+    }
+    section {
+        font-size: 80%;
     }
     button {
         padding: 0.2rem 0.6rem;
