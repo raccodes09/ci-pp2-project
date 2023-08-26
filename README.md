@@ -16,15 +16,15 @@ The option of a "rematch" using a reset button, will reset the quiz allowing a n
 
 #### Design
 
-- #### ***Colour Palette***
+- #### ***Font Colour***
 
-- The colour palette is made up of four colours:
+- The content is made up of three colours:
   - Green #28a745
   - Purple #6b006b
   - White #FFFFFF
 
-  - The Green #28a745 was chosen as it is associated with football. 
-  - The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. 
+  - The Green #28a745 was chosen as it is associated with football.
+  - The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose.
   - Both colors together with the white contrasts really well helping user experience.
 
 - #### ***Typography***
@@ -130,6 +130,8 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
     - the layout and structure of the questions made the intention clear
     - would benefit from a scorecard saving previous user scores
     - more questions
+
+- The webiste worked efficently and without issue across laptop, tablet and mobile phone devices.
 
 
 ## Performance
