@@ -135,7 +135,7 @@ The results shown below:
 
 - Scoreboard where previous users and their scores are saved which would add further competitivness to the quiz.
 - Investigate the usage of an API to generate a larger bucket of questions and randomise the questions on each turn
-- Add animation for when user logs in and also when their final result is revealed
+- Add animation for when user logs in and also when their final result is revealed, for example, a football being kicked.
 
 ## Deployment
 
