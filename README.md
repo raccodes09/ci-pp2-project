@@ -1,6 +1,6 @@
 # Premier League Quizzers
 
-[Live webpage]()
+[Live webpage](https://raccodes09.github.io/ci-pp2-project/)
 
 ![Mockup image](/assets/testing/)
 
@@ -12,7 +12,7 @@ The user is required to enter a username before they can begin quiz, after which
 
 The option of a "rematch" using a reset button, will reset the quiz allowing a new user to play.
 
-### User Experience (UX)
+### User Experience
 
 #### ***Design***
 
@@ -145,7 +145,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - [Live webpage]()
+The live link can be found here - [Live webpage](https://raccodes09.github.io/ci-pp2-project/)
 
 ## Credits
 
