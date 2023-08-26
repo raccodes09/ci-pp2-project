@@ -124,7 +124,24 @@ input[type="radio"] {
 
 /* Media query for screens up to 800px wide */
 @media screen and (max-width: 800px) {
+    header {
+        font-size: 120%;
+        /* Adjust font size for smaller screens */
+    }
 
+    footer {
+        font-size: 120%;
+    }
+
+    button {
+        padding: 0.2rem 0.6rem;
+        /* Further reduce padding for buttons */
+    }
+
+    input[type="text"] {
+        width: 60%;
+        /* Further reduce input width */
+    }
 }
 
 
