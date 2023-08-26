@@ -113,7 +113,7 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
     - [CSS](/assets/testing/testing-css.pdf)
 
-[WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found.
+[WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found other than empty form label - this is intended as I am using placeholder text for instruction and visually more attractive without a label.
 
 ## User Testing
 
@@ -132,7 +132,7 @@ Using Google Lighthouse within Google Chrome Developer Tools I was able to test 
 
 The results shown below:
 
-![Mockup image](/assets/testing/)
+![Mockup image](/assets/testing/readme-images/performance.png)
 
 ## Bugs
 
@@ -206,6 +206,6 @@ Tab icon provided by [favicon.cc](https://www.favicon.cc/?action=search&keywords
 
 ## Acknowledgements
 
-The Slack commnity for asking questions that I didn't know I needed to ask and providing valuable help throughout.
+The Slack community for asking questions that I didn't know I needed to ask and providing valuable help throughout.
 
 Tutors and Student support from Code Institute - very helpful and understanding throughout the course.
