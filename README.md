@@ -117,6 +117,14 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
 ## User Testing
 
+- Feedback from user testing was postive.
+- Reviews suggested that:
+    - the website was easy to navigate
+    - the colors worked well together
+    - the layout and structure of the questions made the intention clear
+    - Would benefit from a scorecard saving previous user scores
+    - 
+
 
 ## Performance
 
@@ -128,7 +136,7 @@ The results shown below:
 
 ## Bugs
 
-- The alert for when no username has been entered and they "Kick-Off" button is pressed does not appear. I have tested this on several browsers and re-written the code but at this time, no fix is in place. I have tested this while ensuring pop-up blockers are disabled but this has not resolved the issue.
+- The alert for when no username has been entered and the "Kick-Off" button is pressed does not appear. I have tested this on several browsers and re-written the code but at this time, no fix is in place. I have tested this while ensuring pop-up blockers are disabled but this has not resolved the issue.
 - The question container resizes depending on length of question being asked. Code would need to be we-written to maintain constant size and for the question text to wrap within the container.
 
 ## Future Implementations
@@ -146,7 +154,7 @@ The project was deployed to GitHub Pages using the following steps:
 1. Log in to GitHub and locate [Premier League Quizzers](https://github.com/raccodes09/ci-pp2-project).
 1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. Under "Source", click the dropdown called "None" and select "Main".
 1. The page will automatically refresh.
 1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
@@ -171,7 +179,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
+- From the source section drop-down menu, select the Main Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [Live webpage](https://raccodes09.github.io/ci-pp2-project/)
