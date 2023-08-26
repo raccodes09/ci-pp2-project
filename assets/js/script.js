@@ -1,7 +1,6 @@
 // Get required elements - values don't change
 const startButton = document.getElementById('startQuiz');
 const usernameInput = document.getElementById('username');
-const quizContainer = document.getElementById('quizContainer');
 const startScreen = document.getElementById('startScreen');
 const questionScreen = document.getElementById('questionScreen');
 const resultScreen = document.getElementById('resultScreen');
