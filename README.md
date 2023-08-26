@@ -1,4 +1,4 @@
-# Premier LEague Quizzers
+# Premier League Quizzers
 
 [Live webpage]()
 
@@ -16,17 +16,17 @@ The option of a "rematch" using a reset button, will reset the quiz allowing a n
 
 Using Balsamiiq Wireframe I was able to design my website before building it. It allowed me to draw up an basic layout of each page I wanted to include.
 
-#### Main Page
+#### Login Page
 
-![Mockup image](/assets/images/readme-images/)
+![Mockup image](/assets/images/wireframe-images/wireframe-username-page.png)
 
-#### Contact Page
+#### Question Page
 
-![Mockup image](/assets/images/readme-images/)
+![Mockup image](/assets/images/wireframe-images/wireframe-question-page.png)
 
-#### Sign Up Page
+#### Result Page
 
-![Mockup image](/assets/images/readme-images/)
+![Mockup image](/assets/images/wireframe-images/wireframe-score-page.png)
 
 ## Features
 
@@ -44,15 +44,15 @@ To help with user experience, the header which holds the links, is fixed meaning
 
 Each page is styled in a clean, pleasing to the eye contrast using colours associated with natural living, calmness and nature - the idea behind behind Aloe Vera itself.
 
-#### Main Page
+#### Login Page
 
 ![Mockup image](/assets/testing/)
 
-#### Contact Page
+#### Question Page
 
 ![Mockup image](/assets/testing/)
 
-#### Sign Up Page
+#### Result Page
 
 ![Mockup image](/assets/testing/)
 
@@ -102,6 +102,9 @@ Each page is styled in a clean, pleasing to the eye contrast using colours assoc
     - [CSS](/assets/testing/testing-css.pdf)
 
 [WAVE Testing](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) was used to test accessibility of website. No errors were found.
+
+## User Testing
+
 
 ## Performance
 
