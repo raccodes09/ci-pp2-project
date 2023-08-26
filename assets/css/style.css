@@ -28,7 +28,7 @@ footer {
     text-align: center;
     padding: 1rem;
     border: 5px solid white;
-    font-size: 200%;
+    font-size: 180%;
     font-family: "Barriecito", sans-serif;
     height: 150px;
     margin-top: auto; /* Sticky footer */
@@ -72,8 +72,8 @@ footer a {
     /* letter-spacing: 20px; */
 }
 
-footer p {
-    margin-bottom: 10px;
+footer h2 {
+    margin-bottom: 20px;
 }
 
 /* question and result style */

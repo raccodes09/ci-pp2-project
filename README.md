@@ -18,16 +18,16 @@ The option of a "rematch" using a reset button, will reset the quiz allowing a n
 
 - #### Colour Palette
 
-        - The colour palette is made up of four colours: 
-          - Green #28a745
-          - Purple #6b006b
-          - White #FFFFFF
+- The colour palette is made up of four colours: 
+  - Green #28a745
+  - Purple #6b006b
+  - White #FFFFFF
 
-        - The Green #28a745 was chosen as it is associated with football. The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. Both colors together with the white contrasts really well helping user experience. 
+  - The Green #28a745 was chosen as it is associated with football. The Purple #6b006b was chosen as being similar to the the color scheme used by the Premier League website itself. I had chosen a slightly lighter purple in comparison as I felt the darker purple did not contrast well with the shade of Green I chose. Both colors together with the white contrasts really well helping user experience.
 
 - #### Typography
 
-    - The font syles of Lisu Bosa for the main body text and "Barriecito" for the headings works well together and represents the intention of the quiz. The "Barriecito" in particular works well as it gives off a "quizicle" style.
+  - The font syles of Lisu Bosa for the main body text and "Barriecito" for the headings works well together and represents the intention of the quiz. The "Barriecito" in particular works well as it gives off a "quizicle" style.
 
 
 ## Wireframe
@@ -50,17 +50,11 @@ Using Balsamiiq Wireframe I was able to design my website before building it. It
 
 - Username entry.
 - "One-page" website.
-- Question section appear dynamically after username validation passes.
-- Questions appear dynamically once previous answer submitted.
+- Question section appears dynamically after username validation passes.
+- Questions appear dynamically, once previous answer submitted.
 - Once all questions answered. Results page appears dynamically.
 - Results page displays score against the user's selected username.
-- REset button to rest quiz and allow new user to play.
-
-The navigation bar includes four clickable links, including the logo acting as a "return to homepage" link. This allows the user to easily access the three pages on the site.
-
-To help with user experience, the header which holds the links, is fixed meaning that it will remain at the top as the user scrolls throughout the page.
-
-Each page is styled in a clean, pleasing to the eye contrast using colours associated with natural living, calmness and nature - the idea behind behind Aloe Vera itself.
+- Reset button to reset quiz and allow new user to play.
 
 #### Login Page
 
@@ -134,11 +128,14 @@ The results shown below:
 
 ## Bugs
 
-When screen size reduces to approximately tablet size and below, the Footer blends with body. Working with "sticky footer" coding I have attempted to fix the footer below each section, howvever my attempts have not worked. To resolve this, I will have to style the body in a differnet way.
+- The alert for when no username has been entered and they "Kick-Off" button is pressed does not appear. I have tested this on several browsers and re-written the code but at this time, no fix is in place. I have tested this while ensuring pop-up blockers are disabled but this has not resolved the issue.
+- The question container resizes depending on length of question being asked. Code would need to be we-written to maintain constant size and for the question text to wrap within the container.
 
-I overcame this by targeting page-content with overflow-y auto. I know there is perhaps a more efficent/best practice way to make the code more appealing - this will be revisisted in a later update.
+## Future Implementations
 
-Issue regarding the links when screen size reduces. It forces content outside the viewport. I tried to implement the "hamburger" method but was unsuccessful. This will be revisisted in a later update - code will need be rewritten to allow a more positive visual experience as well as general user experience.
+- Scoreboard where previous users and their scores are saved which would add further competitivness to the quiz.
+- Investigate the usage of an API to generate a larger bucket of questions and randomise the questions on each turn
+- Add animation for when user logs in and also when their final result is revealed
 
 ## Deployment
 
